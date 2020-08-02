@@ -59,6 +59,7 @@ Does this apply to services also? Lets say when logic changes access rights base
 * Model View Viewmodel (MVVM)
 * Presentation Abstraction Controll (PAC)
 * State Action Model (SAM)
+* Flux
 
 ## Sources:
 
