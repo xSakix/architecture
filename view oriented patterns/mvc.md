@@ -60,7 +60,11 @@ Does this apply to services also? Lets say when logic changes access rights base
 * Presentation Abstraction Controll (PAC)
 * State Action Model (SAM)
 
+## Sources:
 
+[Pattern-Oriented Software Architecture Volume 1: A System of Patterns](https://www.goodreads.com/book/show/85039.Pattern_Oriented_Software_Architecture_Volume_1)
+
+[Patterns of Enterprise Application Architecture](https://www.goodreads.com/book/show/70156.Patterns_of_Enterprise_Application_Architecture)
 
 
 
