@@ -1,4 +1,4 @@
-# Publisher Sunscriber pattern (observer pattern, dependents pattern)
+# Publisher Subscriber pattern (observer pattern, dependents pattern)
 
 Helps to keep the state of cooperating components synchronized.
 
