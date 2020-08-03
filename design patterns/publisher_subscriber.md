@@ -93,6 +93,9 @@ The iterator idea is nice. Maybe a Task which can be divided into individual sub
 
 Also could be MQ solutions, Kafka, etc.. 
 
+Sources:
+
+[Pattern-Oriented Software Architecture Volume 1: A System of Patterns](https://www.goodreads.com/book/show/85039.Pattern_Oriented_Software_Architecture_Volume_1)
 
 
 
