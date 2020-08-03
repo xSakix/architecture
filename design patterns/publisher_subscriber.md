@@ -4,10 +4,10 @@ Helps to keep the state of cooperating components synchronized.
 
 ## The problem
 
-• one or more component needs to be notified about state changes in another comp
-• the number of notified comp is not known apriori and can change over time
-• explicit polling for new information for dependent components is not feasible
-• the info publisher and its dependents should not be tightly coupled when introducing change propagation mechanism
+* one or more component needs to be notified about state changes in another comp
+* the number of notified comp is not known apriori and can change over time
+* explicit polling for new information for dependent components is not feasible
+* the info publisher and its dependents should not be tightly coupled when introducing change propagation mechanism
 
 ## Solution
 
