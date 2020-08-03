@@ -77,7 +77,7 @@ MQ distributed solutions? Like RabbitMQ, Redis, Kafka? How are they implemented 
 
 ### Producer-Consumer
 
-* uses (Producer-Consumer)[https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem] style of cooperation
+* uses [Producer-Consumer](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) style of cooperation
 * producer supplies information for the consumer to process
 * strongly decoupled, by placing e.g. a buffer between them
 * the producer is suspended when the buffer is full
@@ -85,7 +85,7 @@ MQ distributed solutions? Like RabbitMQ, Redis, Kafka? How are they implemented 
 * prod-con are usually 1:1
 * only event channel can simulate a prod-con pattern with multiple prod/con
 * in case of multiple producers, they write into buffer in series, directly or indirectly
-* in case of multiple consumers, when the event is read, it is not deleted. Instead it is marked as such(READ) for the consumer. It gives the ilusion, for the given consumer, that it is consumed. While other consumers can still read/consume it. A good way of implementing it is via (Iterator pattern)[https://en.wikipedia.org/wiki/Iterator_pattern]. Each consumer will have its own iterator on the buffer.The position of the iterator on the buffer reflects how far the consumer has read the buffer. Data can be purged once all the iterators have read it.
+* in case of multiple consumers, when the event is read, it is not deleted. Instead it is marked as such(READ) for the consumer. It gives the ilusion, for the given consumer, that it is consumed. While other consumers can still read/consume it. A good way of implementing it is via [Iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern). Each consumer will have its own iterator on the buffer.The position of the iterator on the buffer reflects how far the consumer has read the buffer. Data can be purged once all the iterators have read it.
 
 Note:
 
