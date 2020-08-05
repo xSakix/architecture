@@ -113,7 +113,7 @@ Dynamics is as follows:
 
 7. **Specify intermediate-level agents to coordinate lower-level agents** - when lower-level agents represent different views on same data, the form the same semantic concept. Can also be a coordination of communication over network, etc.. So not only visual representation in UI of the same data, but in a general way different view on data, be it visual or nonvisual.
 
-8. **Separate core functionality from user interactions** - for every agent introduce **abstraction** and **presentation** components. U can provide unified interface to the abstraction and presentation components using [Facade design pattern](https://en.wikipedia.org/wiki/Facade_pattern). The **control** component then exports those parts of the **abstraction** and **presentation** interface that other components can use. 
+8. **Separate core functionality from user interactions** - for every agent introduce **abstraction** and **presentation** components. U can provide unified interface to the abstraction and presentation components using [Facade design pattern](../design patterns/facade.md). The **control** component then exports those parts of the **abstraction** and **presentation** interface that other components can use. 
 
 	Top level agents often do not provide a presentation component. They are suggestions, that these should provide geometric spatial relationships in such agents.
 	
