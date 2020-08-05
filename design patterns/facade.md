@@ -54,3 +54,6 @@ A common design goal is to minimize the communication and dependencies between s
 
 * [Mediator](https://en.wikipedia.org/wiki/Mediator_pattern)
 
+## Sources
+
+[Design Patterns: Elements of Reusable Object-Oriented Software](https://www.goodreads.com/book/show/85009.Design_Patterns)
