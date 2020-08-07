@@ -117,7 +117,7 @@ Dynamics is as follows:
 
 	Top level agents often do not provide a presentation component. They are suggestions, that these should provide geometric spatial relationships in such agents.
 	
-	You can also apply the [Command pattern](https://en.wikipedia.org/wiki/Command_pattern) to further organize the presentation components. That alows you to shcedule user requests for deferred or prioritized execution and to provide agent specific undo/redo services.
+	You can also apply the [Command pattern](https://github.com/xSakix/architecture/blob/master/design%20patterns/command.md) to further organize the presentation components. That alows you to shcedule user requests for deferred or prioritized execution and to provide agent specific undo/redo services.
 
 	Some lower-level agents operate on data provided byt other agents. In this case you may either not provide an **abstraction** component or use it as a **cache**  (you will need to provide some kind of replication mechanism on data changes.).
 	
